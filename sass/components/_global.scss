@@ -11,6 +11,7 @@ body {
   // display: flex;
   // min-height: 100vh;
   // flex-direction: column;
+  background-color: #EEE;
 }
 
 main {
@@ -347,6 +348,7 @@ ul.staggered-list li {
 footer.page-footer {
   margin-top: 20px;
   padding-top: 20px;
+  padding-bottom: 10px;
   background-color: $footer-bg-color;
 
   .footer-copyright {

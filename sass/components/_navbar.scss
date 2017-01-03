@@ -174,7 +174,8 @@ nav {
   position: relative;
   height: $navbar-height-mobile;
   z-index: 997;
-
+  margin-bottom: 10px;
+  
   nav {
     position: fixed;
   }

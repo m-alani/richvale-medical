@@ -89,9 +89,9 @@ $button-floating-radius: 50% !default;
 // 4. Cards
 // ==========================================================================
 
-$card-padding: 20px !default;
+$card-padding: 15px !default;
 $card-bg-color: #fff !default;
-$card-link-color: color("orange", "accent-2") !default;
+$card-link-color: color("blue", "accent-2") !default;
 $card-link-color-light: lighten($card-link-color, 20%) !default;
 
 
@@ -210,6 +210,7 @@ $medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width 
 $num-cols: 12 !default;
 $gutter-width: 1.5rem !default;
 $element-top-margin: $gutter-width/3 !default;
+$card-top-margin: $gutter-width/5 !default;
 $element-bottom-margin: ($gutter-width*2)/3 !default;
 
 
