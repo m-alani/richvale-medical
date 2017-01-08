@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Richvale Medical Centre</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
@@ -20,56 +21,94 @@
     <!--**** Body ****-->
     <main>
       <div class="container">
-        <!-- Carousel -->
-        <div class="carousel carousel-slider center" data-indicators="true">
-          <div class="carousel-item blue white-text" href="#one!">
-            <h2>Richvale Medical Center</h2>
-            <p class="white-text">This is your first panel</p>
-          </div>
-          <div class="carousel-item amber white-text" href="#two!">
-            <h2>Second Panel</h2>
-            <p class="white-text">This is your second panel</p>
-          </div>
-          <div class="carousel-item green white-text" href="#three!">
-            <h2>Third Panel</h2>
-            <p class="white-text">This is your third panel</p>
-          </div>
-          <div class="carousel-item yellow white-text" href="#four!">
-            <h2>Fourth Panel</h2>
-            <p class="white-text">This is your fourth panel</p>
-          </div>
+        <!-- Image Slider -->
+        <div class="slider">
+          <ul class="slides">
+            <li>
+              <img src="img/slide1.jpg">
+            </li>
+            <li>
+              <img src="http://lorempixel.com/1000/600/nature/2"> <!-- random image -->
+              <div class="caption left-align">
+                <h3>Left Aligned Caption</h3>
+                <h5 class="light grey-text text-lighten-3">This is slide number 2</h5>
+              </div>
+            </li>
+            <li>
+              <img src="http://lorempixel.com/1000/600/nature/3"> <!-- random image -->
+              <div class="caption right-align">
+                <h3>Right Aligned Caption</h3>
+                <h5 class="light grey-text text-lighten-3">This is slide number 3</h5>
+              </div>
+            </li>
+            <li>
+              <img src="http://lorempixel.com/1000/600/nature/4"> <!-- random image -->
+              <div class="caption center-align">
+                <h3>And another caption</h3>
+                <h5 class="light grey-text text-lighten-3">This is slide number 4</h5>
+              </div>
+            </li>
+          </ul>
         </div>
 
         <!-- Body Cards -->
         <div class="row">
           <div class="col s12 m6">
             <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="http://lorempixel.com/400/400/cats/1">
+              </div>
               <div class="card-content">
-                <span class="card-title">Card 1</span>
+                <span class="card-title activator grey-text text-darken-4">Services<i class="small material-icons right">open_in_new</i></span>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                <p>Here is some more information about this product that is only revealed once clicked on.</p>
               </div>
             </div>
           </div>
 
           <div class="col s12 m6">
             <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="http://lorempixel.com/400/400/cats/5">
+              </div>
               <div class="card-content">
-                <span class="card-title">Card 2</span>
+                <span class="card-title activator grey-text text-darken-4">Hours<i class="small material-icons right">open_in_new</i></span>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                <p>Here is some more information about this product that is only revealed once clicked on.</p>
               </div>
             </div>
           </div>
 
           <div class="col s12 m6">
             <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="http://lorempixel.com/400/400/cats/3">
+              </div>
               <div class="card-content">
-                <span class="card-title">Card 3</span>
+                <span class="card-title activator grey-text text-darken-4">Location<i class="small material-icons right">open_in_new</i></span>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                <p>Here is some more information about this product that is only revealed once clicked on.</p>
               </div>
             </div>
           </div>
 
           <div class="col s12 m6">
             <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="http://lorempixel.com/400/400/cats/4">
+              </div>
               <div class="card-content">
-                <span class="card-title">Card 4</span>
+                <span class="card-title activator grey-text text-darken-4">Contact<i class="small material-icons right">open_in_new</i></span>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                <p>Here is some more information about this product that is only revealed once clicked on.</p>
               </div>
             </div>
           </div>
@@ -81,7 +120,7 @@
     <!-- Footer -->
     <footer class="page-footer">
         <div class="container grey-text text-lighten-4">
-          &copy; 2017 - Richvale Medical Center
+          Copyright &copy; 2017 - Richvale Medical Center
           <a class="grey-text text-lighten-4 right" href="mailto:marwan@alani.ca">Created by: Marwan Alani</a>
         </div>
     </footer>
