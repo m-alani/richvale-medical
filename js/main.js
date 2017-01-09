@@ -3,9 +3,9 @@ $(document).ready(function () {
   $('.slider').slider(
     {
       full_width: true,
-      height: 600,
       interval: 4000,
-      indicators: false
+      indicators: false,
+      height: (window.screen.width < 601 ? 400 : 600)
     }
   );
 

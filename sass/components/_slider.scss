@@ -25,10 +25,18 @@
     }
   }
 
+  @media #{$small-and-down} {
+    height: 400px;
+  }
+
   .slides {
     background-color: $slider-bg-color;
     margin: 0;
     height: 600px;
+
+    @media #{$small-and-down} {
+      height: 400px;
+    }
 
     li {
       opacity: 0;
