@@ -2196,6 +2196,8 @@ footer.page-footer {
   padding-top: 20px;
   padding-bottom: 10px;
   background-color: #64B5F6; }
+  footer.page-footer .container .row .col {
+    margin-bottom: 5px; }
   footer.page-footer .footer-copyright {
     overflow: hidden;
     height: 50px;
@@ -3801,8 +3803,5 @@ button.btn-floating {
 
 .activator .material-icons {
   padding-top: 9px; }
-
-.page-footer .container .row .col {
-  margin-bottom: 5px; }
 
 /*# sourceMappingURL=main.css.map */

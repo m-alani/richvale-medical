@@ -351,6 +351,10 @@ footer.page-footer {
   padding-bottom: 10px;
   background-color: $footer-bg-color;
 
+  .container .row .col {
+    margin-bottom: 5px;
+  }
+  
   .footer-copyright {
     overflow: hidden;
     height: 50px;
