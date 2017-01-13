@@ -2228,7 +2228,7 @@ thead {
   border-bottom: 1px solid #d0d0d0; }
 
 td, th {
-  padding: 15px 5px;
+  padding: 5px;
   display: table-cell;
   text-align: left;
   vertical-align: middle;
@@ -2248,8 +2248,6 @@ td, th {
     table.responsive-table td {
       margin: 0;
       vertical-align: top; }
-    table.responsive-table th {
-      text-align: left; }
     table.responsive-table thead {
       display: block;
       float: left; }
@@ -3127,13 +3125,13 @@ html {
   color: rgba(0, 0, 0, 0.87); }
   @media only screen and (min-width: 0) {
     html {
-      font-size: 14px; } }
+      font-size: 16px; } }
   @media only screen and (min-width: 992px) {
     html {
-      font-size: 14.5px; } }
+      font-size: 16.5px; } }
   @media only screen and (min-width: 1200px) {
     html {
-      font-size: 15px; } }
+      font-size: 17px; } }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
@@ -3179,6 +3177,9 @@ strong {
   font-weight: 500; }
 
 small {
+  font-size: 75%; }
+
+.smaller {
   font-size: 75%; }
 
 .light, footer.page-footer .footer-copyright {
@@ -3807,5 +3808,31 @@ button.btn-floating {
 
 .activator .material-icons {
   padding-top: 9px; }
+
+.card-reveal .card-title {
+  border-bottom-width: 70%;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  padding-bottom: 5px; }
+  .card-reveal .card-title .material-icons {
+    padding-top: 0; }
+
+th {
+  text-align: right; }
+
+.extra-push {
+  margin-top: 5px; }
+
+address {
+  margin: 25px 5px 0 5px;
+  font-size: 110%;
+  font-weight: bold;
+  font-style: normal; }
+
+.card-buttons {
+  position: absolute;
+  width: 70%;
+  bottom: 20px;
+  left: 15%; }
 
 /*# sourceMappingURL=main.css.map */

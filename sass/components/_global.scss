@@ -354,7 +354,7 @@ footer.page-footer {
   .container .row .col {
     margin-bottom: 5px;
   }
-  
+
   .footer-copyright {
     overflow: hidden;
     height: 50px;
@@ -409,7 +409,7 @@ thead {
 }
 
 td, th{
-  padding: 15px 5px;
+  padding: 5px;
   display: table-cell;
   text-align: left;
   vertical-align: middle;
@@ -436,7 +436,6 @@ td, th{
       vertical-align: top;
     }
 
-    th { text-align: left; }
     thead {
       display: block;
       float: left;

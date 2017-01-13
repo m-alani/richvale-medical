@@ -21,3 +21,33 @@
 .activator .material-icons {
   padding-top: 9px;
 }
+
+.card-reveal .card-title {
+  border-bottom-width: 70%;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  padding-bottom: 5px;
+  .material-icons {
+    padding-top: 0;
+  }
+}
+
+th {
+  text-align: right;
+}
+
+.extra-push { margin-top: 5px; }
+
+address {
+  margin: 25px 5px 0 5px;
+  font-size: 110%;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.card-buttons {
+  position: absolute;
+  width: 70%;
+    bottom: 20px;
+    left: 15%;
+}
