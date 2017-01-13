@@ -3835,8 +3835,9 @@ address {
 .card-buttons {
   position: absolute;
   width: 70%;
-  bottom: 20px;
-  left: 15%; }
+  bottom: 30px;
+  left: 15%;
+  border-radius: 17px; }
 
 .call-button {
   width: 75%;
