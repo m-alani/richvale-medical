@@ -14,6 +14,10 @@
   margin-top: 10px;
 }
 
+.more-top-margin {
+  margin-top: 25px;
+}
+
 .navbar-fixed {
   margin-top: -80px;
 }
@@ -51,4 +55,34 @@ address {
   width: 70%;
     bottom: 20px;
     left: 15%;
+}
+
+.call-button {
+  width: 75%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  .material-icons {
+    vertical-align: middle;
+  }
+  border-radius: 17px;
+}
+
+.social-btn {
+  font-size: 112px;
+  @media #{$small-and-down} {
+    font-size: 72px;
+  }
+}
+
+.wide {
+  width: 95%;
+}
+
+.fix-fa {
+  margin-top: -25px;
+  margin-bottom: -25px;
+  @media #{$small-and-down} {
+    margin-top: -15px;
+    margin-bottom: -15px;
+  }
 }

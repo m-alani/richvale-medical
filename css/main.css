@@ -3803,6 +3803,9 @@ button.btn-floating {
 .top-margin {
   margin-top: 10px; }
 
+.more-top-margin {
+  margin-top: 25px; }
+
 .navbar-fixed {
   margin-top: -80px; }
 
@@ -3834,5 +3837,30 @@ address {
   width: 70%;
   bottom: 20px;
   left: 15%; }
+
+.call-button {
+  width: 75%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 17px; }
+  .call-button .material-icons {
+    vertical-align: middle; }
+
+.social-btn {
+  font-size: 112px; }
+  @media only screen and (max-width: 600px) {
+    .social-btn {
+      font-size: 72px; } }
+
+.wide {
+  width: 95%; }
+
+.fix-fa {
+  margin-top: -25px;
+  margin-bottom: -25px; }
+  @media only screen and (max-width: 600px) {
+    .fix-fa {
+      margin-top: -15px;
+      margin-bottom: -15px; } }
 
 /*# sourceMappingURL=main.css.map */
