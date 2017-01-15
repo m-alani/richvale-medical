@@ -4,7 +4,7 @@
     border-style: solid;
     border-width: 1px;
     border-color: $primary-color-dark;
-    max-height: 80%;
+    max-height: 60px;
     vertical-align: middle;
     margin-bottom: 4px;
     margin-left: 4px;
@@ -87,4 +87,9 @@ address {
     margin-top: -15px;
     margin-bottom: -15px;
   }
+}
+
+.brand-logo .small {
+  color: #EEE;
+  font-size: 40%;
 }

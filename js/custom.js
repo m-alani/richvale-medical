@@ -13,6 +13,10 @@ $(document).ready(function () {
     }
   );
 
+  if (window.screen.width > 600) {
+    $("#brand-text").html("Walk-in Clinic &amp; Family Practice");
+  }
+
   setTimeout(function () {
     $('.navbar-fixed').animate({ marginTop: '0px' }, 500);
   }, 2500);
