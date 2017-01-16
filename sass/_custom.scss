@@ -64,6 +64,7 @@ address {
   width: 75%;
   padding-left: 1rem;
   padding-right: 1rem;
+  margin-top: -48px;
   .material-icons {
     vertical-align: middle;
   }
@@ -82,10 +83,10 @@ address {
 }
 
 .fix-fa {
-  margin-top: -25px;
+  margin-top: -30px;
   margin-bottom: -25px;
   @media #{$small-and-down} {
-    margin-top: -15px;
+    margin-top: -20px;
     margin-bottom: -15px;
   }
 }
