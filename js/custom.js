@@ -7,17 +7,17 @@ $(document).ready(function () {
   $('.slider').slider(
     {
       full_width: true,
-      interval: 3000,
+      interval: 3500,
       indicators: true,
       height: (window.screen.width < 601 ? 400 : 600)
     }
   );
 
   if (window.screen.width > 600) {
-    $("#brand-text").html("Walk-in Clinic &amp; Family Practice");
+    $("#brand-text").html(" &amp; Walk-in Clinic");
   }
 
   setTimeout(function () {
-    $('.navbar-fixed').animate({ marginTop: '0px' }, 500);
-  }, 2500);
+    $('.navbar-fixed').animate({ marginTop: '0px' }, 250);
+  }, 3500);
 })
