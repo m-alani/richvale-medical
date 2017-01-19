@@ -27,7 +27,7 @@
     }
   }
 
-  @media #{$small-and-down} {
+  @media #{$medium-and-down} {
     height: 400px;
   }
 
@@ -36,7 +36,7 @@
     margin: 0;
     height: 600px;
 
-    @media #{$small-and-down} {
+    @media #{$medium-and-down} {
       height: 400px;
     }
 

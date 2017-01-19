@@ -14,7 +14,7 @@ $(document).ready(function () {
   );
 
   if (window.screen.width > 600) {
-    $("#brand-text").html(" &amp; Walk-in Clinic");
+    $("#brand-text").html(' Richvale Medical Center <span class="small" >&amp; Walk-in Clinic</span>');
   }
 
   setTimeout(function () {

@@ -68,7 +68,7 @@ address {
   width: 75%;
   padding-left: 1rem;
   padding-right: 1rem;
-  margin-top: -32px;
+  margin-top: -31px;
   .material-icons {
     vertical-align: middle;
   }
@@ -76,8 +76,8 @@ address {
 }
 
 .social-btn {
-  font-size: 112px;
-  @media #{$small-and-down} {
+  font-size: 100px;
+  @media #{$medium-and-down} {
     font-size: 72px;
   }
 }
@@ -87,9 +87,9 @@ address {
 }
 
 .fix-fa {
-  margin-top: -106px;
+  margin-top: -99px;
   margin-bottom: -25px;
-  @media #{$small-and-down} {
+  @media #{$medium-and-down} {
     margin-top: -78px;
   }
 }
