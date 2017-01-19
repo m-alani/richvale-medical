@@ -172,11 +172,13 @@ nav {
 .navbar-fixed {
   position: relative;
   height: $navbar-height-mobile;
-  z-index: 997;
+  z-index: 995;
   margin-bottom: 15px;
+  opacity: 0.95;
 
   nav {
     position: fixed;
+    z-index: 996;
   }
 }
 @media #{$medium-and-up} {

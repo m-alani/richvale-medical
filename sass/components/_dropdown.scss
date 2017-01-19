@@ -1,6 +1,6 @@
 .dropdown-content {
   @extend .z-depth-1;
-  background-color: $dropdown-bg-color;
+  background-color: $primary-color;
   margin: 0;
   display: none;
   min-width: 100px;
@@ -22,11 +22,11 @@
     text-transform: none;
 
     &:hover, &.active, &.selected {
-      background-color: $dropdown-hover-bg-color;
+      background-color: $primary-color-dark;
     }
 
     &.active.selected {
-      background-color: darken($dropdown-hover-bg-color, 5%);
+      background-color: darken($primary-color-dark, 5%);
     }
 
     &.divider {
@@ -36,7 +36,7 @@
 
     & > a, & > span {
       font-size: 16px;
-      color: $dropdown-color;
+      color: $navbar-font-color;
       display: block;
       line-height: 22px;
       padding: (($dropdown-item-height - 22) / 2) 16px;
@@ -62,4 +62,3 @@
   left: 0;
   height: 18px;
 }
-

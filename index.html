@@ -25,13 +25,26 @@
 
   <body>
     <!--**** Navigation Bar ****-->
-    <header>
+    <header id="top">
       <div class="navbar-fixed">
         <nav>
           <div class="nav-wrapper">
-            <a href="http://richvalemedical.ca" class="brand-logo"><img src="img/logo-navbar.png" alt="Logo" class="navbar-img"><span id="brand-text"></span></a>
+            <a href="#top" class="brand-logo"><img src="img/logo-navbar.png" alt="Logo" class="navbar-img"><span id="brand-text"></span></a>
+            <a class='dropdown-button right hide-on-large-only' href='#' data-activates='dropdown1'><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#location">Location</a></li>
+              <li><a href="#hours">Hours</a></li>
+              <li><a href="#services">Services</a></li>
+            </ul>
           </div>
         </nav>
+        <ul id='dropdown1' class='dropdown-content hide-on-large-only'>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#location">Location</a></li>
+          <li><a href="#hours">Hours</a></li>
+          <li><a href="#services">Services</a></li>
+        </ul>
       </div>
     </header>
 
@@ -78,7 +91,7 @@
         <div class="row">
           <!-- Contact -->
           <div class="col s12 m6">
-            <div class="card medium hoverable">
+            <div class="card medium hoverable" id="contact">
               <div class="card-image waves-effect waves-block waves-light">
                 <img class="activator" src="img/contact.jpg" alt="Contact">
               </div>
@@ -113,7 +126,7 @@
           </div>
 
           <!-- Location -->
-          <div class="col s12 m6">
+          <div class="col s12 m6" id="location">
             <div class="card medium hoverable">
               <div class="card-image waves-effect waves-block waves-light">
                 <img class="activator" src="img/location.jpg" alt="Location">
@@ -138,7 +151,7 @@
           </div>
 
           <!-- Hours -->
-          <div class="col s12 m6">
+          <div class="col s12 m6" id="hours">
             <div class="card medium hoverable">
               <div class="card-image waves-effect waves-block waves-light">
                 <img class="activator" src="img/hours.jpg" alt="Hours">
@@ -162,7 +175,7 @@
           </div>
 
           <!-- Services -->
-          <div class="col s12 m6">
+          <div class="col s12 m6" id="services">
             <div class="card medium hoverable">
               <div class="card-image waves-effect waves-block waves-light">
                 <img class="activator" src="img/services.jpg" alt="Services">
