@@ -1,5 +1,7 @@
 $(document).ready(function () {
 
+  var margin = 60;
+
   if (!!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform)) {
     $("#facebook-link").attr("href", "fb://profile/233576250401566");
   }
@@ -15,6 +17,7 @@ $(document).ready(function () {
 
   if (window.screen.width > 600) {
     $("#brand-text").html(' Richvale Medical Center <span class="small" >&amp; Walk-in Clinic</span>');
+    margin = 64;
   } else {
     $("#brand-text").html(' Richvale Medical Center');
   }
@@ -39,7 +42,7 @@ $(document).ready(function () {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
       if (target.length) {
-        var scrollTo = target.offset().top ? target.offset().top - 60 : 0;
+        var scrollTo = target.offset().top ? target.offset().top - margin : 0;
         $('html, body').animate({
           scrollTop: scrollTo
         }, 1000);
