@@ -6,6 +6,20 @@ $(document).ready(function () {
     $("#facebook-link").attr("href", "fb://profile/233576250401566");
   }
 
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (target.length) {
+        var scrollTo = target.offset().top ? target.offset().top - margin : 0;
+        $('html, body').animate({
+          scrollTop: scrollTo
+        }, 1000);
+        return false;
+      }
+    }
+  });
+
   $('.slider').slider(
     {
       full_width: true,
@@ -40,18 +54,4 @@ $(document).ready(function () {
     $('.slider').slider('next');
     $('.slider').slider('start');
   }, 2000);
-
-  $('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      if (target.length) {
-        var scrollTo = target.offset().top ? target.offset().top - margin : 0;
-        $('html, body').animate({
-          scrollTop: scrollTo
-        }, 1000);
-        return false;
-      }
-    }
-  });
 })
