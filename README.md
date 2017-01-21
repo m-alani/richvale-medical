@@ -1,7 +1,7 @@
 # Richvale Medical Center
 
 This is the development repo for Richvale Medical Center's website, found at [http://richvalemedical.ca](http://richvalemedical.ca "Visit richvalemedical.ca"). The project took 2 weeks to complete; from initial requirement gathering, to deployment.  
-This repo is made public for demonstrations' reasons, however, feedback on my code & techniques are always welcome.
+While this repo is made public for demonstration purposes, as always, feedback on my code & techniques are always welcome.
 
 ---  
 
