@@ -1,48 +1,37 @@
-![alt tag](https://raw.github.com/dogfalo/materialize/master/images/materialize.gif)
-===========
+# Richvale Medical Center
+---
 
-[![Travis CI](https://travis-ci.org/Dogfalo/materialize.svg?branch=master)](https://travis-ci.org/Dogfalo/materialize)[![devDependency Status](https://david-dm.org/Dogfalo/materialize/dev-status.svg)](https://david-dm.org/Dogfalo/materialize#info=devDependencies)[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/Dogfalo/materialize?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-[Materialize](http://materializecss.com/), a CSS Framework based on material design
-
-### Current Version : v0.97.7
-
-## Sass Requirements:
-- Ruby Sass 3.3+, LibSass 0.6+
-
-## Supported Browsers:
-Chrome 35+, Firefox 31+, Safari 7+, IE 10+
-
-## Changelog
-- v0.97.7 (July 23rd)
-  - Basic horizontal cards
-  - Carousel bug fixes and new features
-  - Updated sidenav styles and new component
-  - Meteor package now supports Sass
-  - Autocomplete form component
-  - Chips jQuery plugin
-- v0.97.6 (April 1st)
-  - **Removed deprecated material icons from project**
-  - **Changed /font directory to /fonts**
-  - Datepicker and ScrollSpy now compatible with jQuery 2.2.x
-  - Responsive tables now work with empty cells
-  - Added focus states to checkboxes, switches, and radio buttons
-  - Sidenav and Modals no longer cause flicker with scrollbar
-  - Materialbox overflow and z-index issues fixed
-  - Added new option for Card actions within a Card reveal
-- v0.97.5 (Dec 21, 2015)
-  - Fixed Meteor package crash
-- v0.97.4 (Dec 20, 2015)
-  - Added Jasmine testing with Travis CI
-  - Select bugfixes
-  - Grid Offset bugfix
-  - Dropdown overflow bugfix
-  - Range slider error bugfix
+This is the public development repo for Richvale Medical Center's website, found at [http://richvalemedical.ca](http://wichvalemedical.ca "Visit richvalemedical.ca"). The project took 2 weeks to complete; from initial requirement gathering, to deployment.
 
 
+### Credits
+The website is using [MaterializeCSS](http://materializecss.com/) framework under the MIT License (MIT).
 
-## Contributing
-[Please read CONTRIBUTING.md for more information](CONTRIBUTING.md)
+Planned, designed, and coded by: [Marwan Alani](http://alani.ca "Visit Marwan's Site")
 
-## Testing
-We use Jasmine as our testing framework and we're trying to write a robust test suite for our components. If you want to help, [here's a starting guide on how to write tests in Jasmine](https://docs.google.com/document/d/1dVM6qGt_b_y9RRhr9X7oZfFydaJIEqB9CT7yekv-4XE/edit?usp=sharing)
+### Technologies/Languages Used
+- HTML5
+- CSS3
+- SASS
+- jQuery (with a bit of vanilla JS)
+
+### Running Locally
+Make sure you have `git` installed on your system, then run `git clone https://github.com/m-alani/richvale-medical.git` from your command line.  
+That's it, open `index.html` from the `richvale-medical` directory that Git have just cloned for you and you should see the website in your browser.  
+
+#### Editing JS/jQuery
+All the editable JS code is found in `js/custom.js`, so make sure you make your edits there. The website uses a minified/compressed format for our custom JS code (combined with few selected JS modules from `MaterializeCSS`).
+So make your edits in `js/custom.js`, then compress/minify all the files found in `js/` directory and save/overwrite the resulting file as `js/main.min.js`.
+You can use [JSCompress](https://jscompress.com/), or any other preferred tool to perform the compression.  
+
+**Note** When you are compressing/minifing the files in `js/` directory, make sure that do not include `main.min.js`, and also make sure that `custom.js` is the last file you add to the list of `.js` files to be compressed
+
+#### Editing CSS/SASS
+All SASS modules from MaterializeCSS framework (most of them are modified) can be found under `sass/components` directory. All custom CSS/SASS code can be found in `sass/_custom.scss` file. `sass/main.scss` is the encapsulating file to be compiled into the main CSS file for the website.  
+If you make any edits to the CSS/SASS files mentioned above, you can recompile the site's CSS by running `sass sass/main.scss css/main.min.css --style compressed` in the command line, and that will regenerate (and minify) the site's CSS.  
+
+**Note** In order to successfully run the command above & recompile the site's CSS, make sure you have `SASS` installed on your system, and also make sure that you run the command from the root directory of the website (the directory that contains `index.html`)  
+
+---
+
+Marwan Alani - 2017
